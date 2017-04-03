@@ -1,0 +1,277 @@
+@CHARSET "EUC-KR";
+* {
+	margin:0;
+	padding:0;
+}
+#logo {
+	text-align: center;
+}
+
+
+.menubar {
+	border: none;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans",
+		"Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica,
+		sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.menubar ul {
+	background: rgb(0, 0, 0);
+	height: 50px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menubar li {
+	float: left;
+	padding: 0px;
+}
+
+.menubar li a {
+	background: rgb(0, 0, 0);
+	color: #cccccc;
+	display: block;
+	font-weight: normal;
+	line-height: 50px;
+	margin: 0px;
+	padding: 0px 25px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.menubar li a:hover, .menubar ul li:hover a {
+	background: rgb(246, 246, 246);
+	color: red;
+	text-decoration: none;
+}
+
+.menubar li ul {
+	background: rgb(0, 0, 0);
+	display: none; /* 평상시에는 드랍메뉴가 안보이게 하기 */
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	position: absolute;
+	width: 200px;
+	z-index: 200;
+	/*top:1em;
+/*left:0;*/
+}
+
+.menubar li:hover ul {
+	display: block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+}
+
+.menubar li li {
+	background: rgb(0, 0, 0);
+	display: block;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+}
+
+.menubar li:hover li a {
+	background: none;
+}
+
+.menubar li ul a {
+	display: block;
+	height: 50px;
+	font-size: 12px;
+	font-style: normal;
+	margin: 0px;
+	padding: 0px 10px 0px 15px;
+	text-align: center;
+}
+
+.menubar li ul a:hover, .menubar li ul li:hover a {
+	background: rgb(255, 0, 0);
+	border: 0px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menubar p {
+	clear:;
+}
+
+.clsBannerScreen {
+	overflow: hidden;
+	position: relative;
+	height: 150px;
+	width: 600px;
+	border: 1px solid #e1e1e1;
+	cursor: pointer;
+	clear: both;
+}
+
+.clsBannerScreen .images {
+	position: absolute;
+	display: none;
+}
+
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 10pt;
+}
+
+.clsBannerButton {
+	width: 600px;
+	cursor: pointer;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.clsBannerButton li {
+	width: 100px;
+	float: left;
+	border-right: 1px solid #e1e1e1;
+	padding: 2px;
+}
+
+.clsBannerButton li.fir {
+	border-left: 1px solid #e1e1e1;
+}
+
+.clsBannerButton li.labelOverClass {
+	font-weight: bold;
+}
+
+#image_list_3 {
+	text-align: center;
+}
+
+.clsBannerScreen {
+	text-align: center;
+	margin-left: 0px;
+}
+body {
+
+	margin:0 auto 0;
+	padding:0;
+	font-family:맑은 고딕, Arial, Helvetica, sans-serif;
+	color:#333333;
+}
+/* content */
+div.page-wrap {
+	padding:20px;
+	clear:both;
+	background-color:#fff;
+}
+div.content {
+	float:left;
+	width:90%;
+	padding-right:20px;
+}
+
+div.content ul {
+	font-size:0.9em;
+	list-style:disc;
+}
+div.content ul li {
+	padding-bottom:5px;
+}
+
+div.paging{margin:20px 0 0 0; text-align:center;}
+div.paging li{display:inline; padding:0 3px; font-family:Tahoma; font-size:11px;}
+div.boardSearch{background-color:#f9f9f9;  margin-top:30px; text-align:center; padding:10px;}
+div.boardSearch input{border:1px solid #dfdfdf; padding:2px;}
+div.boardSearch input.btn{border:0; padding:0; vertical-align:top;}
+/*login*/
+div.login {
+	float:center;
+	width:100%
+	
+}
+div.login table {
+	width:50%;
+	margin-bottom:10px;
+}
+div.login table tr th, table tr td {
+	padding:5px 10px; 
+	
+}
+div.login table tr th {
+	background:#1a48b0 none repeat-x scroll bottom left;
+	color:#ffffff;
+	border-top:2px solid #1a48b0;
+}
+div.login table tr td {
+	border-bottom:1px solid #dddddd;
+}
+
+/* wrapper */
+div.pagewidth {
+	width:85%;
+	margin:0 auto;
+	padding:0;
+}
+table {
+	width:100%;
+	margin-bottom:10px;
+}
+table tr th, table tr td {
+	padding:5px 10px; 
+}
+table tr th {
+	background:#1a48b0 none repeat-x scroll bottom left;
+	color:#ffffff;
+	border-top:2px solid #1a48b0;
+}
+table tr td {
+	border-bottom:1px solid #dddddd;
+}
+
+/* header & nav */
+div.header-login {
+	font-size:2;
+	text-align:right;
+	padding-right:100px;
+	padding:0px 30px;
+
+}
+
+
+div.header {
+	padding:40px 0 40px 10px;
+	margin:0 auto;
+}
+
+
+div.footer {
+	clear:both;
+	background:#262626;
+}
+
+div.footer p {
+	text-align:center;
+	color:#eee;
+	font-size:0.75em;
+	padding:40px 0;
+	margin:0;
+}
+div.footer p a {
+	color:#eee;
+}
+
+/* search form */
+form.searchform {
+}
+
+
+/* misc classes */
+*:focus {
+	outline:none;
+}
+.clear {
+	clear:both;
+}

@@ -1,0 +1,11 @@
+<context>
+<Resource auth="Container"
+driverClassName="com.mysql.jdbc.Driver"
+maxWait="5000"
+name="jdbc/jsptest"
+username="test5"
+password="test1234"
+type="javax.sql.DataSource"
+url="jdbc:mysql://203.255.177.208:3306/testjsp5"
+/>
+</context>
